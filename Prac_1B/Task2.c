@@ -351,10 +351,10 @@ int main(void)
     /* long_run_span    = time_n_calls(TEST_INPUT, LONG_RUN_N); */
     /* mean_us_per_call = ??? ; */
 
-    /*
+    
     long_run_span = time_n_calls(TEST_INPUT, LONG_RUN_N);
     mean_us_per_call = long_run_span / LONG_RUN_N;
-	*/
+	
 
     int32_t diff = (int32_t)mean_us_per_call - (int32_t)single_call_span;
     if (diff < 0) diff = -diff;
