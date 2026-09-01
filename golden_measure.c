@@ -75,10 +75,8 @@ static double time_n_calls(long reps)
 
 int main(void)
 {
-	printf("Predicted time per call: 13 ns"
-			"est. 40 instructions * 0.33 ns/instr on a ~3GHz CPU\n\n");
 
-	 /* Output table + per-input hand check for all ten golden inputs. */
+	 /* Output table + hand check for all ten golden inputs. */
 	 printf("Output table and hand-check for all ten inputs:\n");
 	 for (int i = 0; i < 10; i++)
 	 {
